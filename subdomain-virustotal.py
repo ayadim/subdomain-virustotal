@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 import requests
-from os import environ
-import os
 import sys
 import json
 
@@ -28,5 +26,5 @@ if __name__ == '__main__':
     	print("Usage: python3 subdomain-virustotal.py domain.com key", file=sys.stderr)
     	sys.exit(1) 
     domain = sys.argv[1]
-    apikey=sys.argv[2]  #Replace the API key here 
+    apikey= "APIKEY"
     main(domain, apikey)
