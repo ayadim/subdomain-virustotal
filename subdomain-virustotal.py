@@ -22,8 +22,8 @@ def main(domain, apikey):
 
 if __name__ == '__main__':
     
-    if len(sys.argv) != 3:
-    	print("Usage: python3 subdomain-virustotal.py domain.com key", file=sys.stderr)
+    if len(sys.argv) != 2:
+    	print("Usage: python3 subdomain-virustotal.py domain.com", file=sys.stderr)
     	sys.exit(1) 
     domain = sys.argv[1]
     apikey= "APIKEY"
